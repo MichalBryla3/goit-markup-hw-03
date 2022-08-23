@@ -15,11 +15,13 @@ body {
   font-weight: var(--font-weight);
   font-style: var(--font-style);
 }
+
 .logo {
   font-size: 26px;
   text-decoration: none;
   font-weight: 700;
   line-height: 1.19;
+  padding: 24px 93px 25px 215px;
 }
 .logo-header-first {
   color: #2196f3;
@@ -30,6 +32,9 @@ body {
 .header {
   font-weight: 500;
   line-height: 1.14;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .link {
@@ -49,6 +54,8 @@ body {
   font-weight: 900;
   background-color: #2f303a;
   line-height: 1.36;
+  text-align: center;
+  margin: 200px 0px 30px 0px;
 }
 .button-main {
   cursor: pointer;
@@ -61,12 +68,14 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-style: none;
   padding: 10px 41px 10px 42px;
+  margin: 30px 0px 200px 0px;
 }
 
 .tittle {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
+  text-align: center;
 }
 
 .subtitle {
@@ -148,4 +157,27 @@ body {
 }
 .footer-dots {
   list-style-type: none;
+}
+.conatiner {
+  width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  list-style-type: none;
+}
+.flex-container li {
+  padding: 30px;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.menu li {
+  padding: 46px;
+}
+.header .menu {
+  display: inline-flex;
+  list-style: none;
 }
