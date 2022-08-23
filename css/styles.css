@@ -1,0 +1,151 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --font-size: 14px;
+  --font-weight: 400;
+  --font-style: normal;
+  --font-family: "Roboto", "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+}
+.logo {
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+}
+.logo-header-first {
+  color: #2196f3;
+}
+.logo-header-second {
+  color: black;
+}
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.link:focus,
+.link:active,
+.link:hover {
+  color: #2196f3;
+}
+
+.title-main {
+  font-size: 44px;
+  color: white;
+  font-weight: 900;
+  background-color: #2f303a;
+  line-height: 1.36;
+}
+.button-main {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2196f3;
+  line-height: 1.87;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-style: none;
+  padding: 10px 41px 10px 42px;
+}
+
+.tittle {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.14;
+}
+.paragraph {
+  color: #757575;
+  line-height: 1.71;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.description {
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.18;
+}
+.buttons {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border-radius: 4px;
+  border-style: none;
+  padding: 6px 22px;
+}
+
+.buttons:focus,
+.buttons:hover {
+  color: white;
+  background-color: #2196f3;
+}
+.button-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.title-portfolio {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212121;
+  line-height: 2;
+}
+.text-portfolio {
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.87;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer-first {
+  color: #2196f3;
+  line-height: 1.19;
+}
+.logo-footer-second {
+  color: #ffffff;
+  line-height: 1.19;
+}
+.address {
+  color: #ffffff;
+  line-height: 1.71;
+}
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-dots {
+  list-style-type: none;
+}
