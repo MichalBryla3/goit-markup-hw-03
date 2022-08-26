@@ -8,6 +8,8 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0px;
+  list-style: none;
 }
 body {
   font-family: var(--font-family);
@@ -29,6 +31,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   line-height: 1.19;
+  padding: 24px 93px 25px 215px;
 }
 .logo-header-first {
   color: #2196f3;
@@ -36,21 +39,24 @@ body {
 .logo-header-second {
   color: black;
 }
-.logos {
+.navi {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  padding-left: 215px;
-  border: 2px solid blue;
+}
+.header-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu-1 {
+.menu {
   display: flex;
-  padding-left: 93px;
-  padding-right: 371px;
   gap: 46px;
-  list-style: none;
-  border: 2px solid red;
+}
+
+.contact-header {
+  display: flex;
+  gap: 50px;
 }
 
 .link {
@@ -62,6 +68,9 @@ body {
 .link:active,
 .link:hover {
   color: #2196f3;
+}
+.section {
+  padding: 94px 0px;
 }
 
 .effectiv-business {
@@ -99,7 +108,6 @@ body {
   line-height: 1.16;
   text-align: center;
   padding-bottom: 50px;
-  margin: 0px;
 }
 
 .subtitle {
@@ -113,31 +121,25 @@ body {
 }
 .container-items-lorem {
   display: flex;
-  list-style: none;
   gap: 30px;
-  padding: 94px 0px 94px 0px;
-  margin: 0;
+  padding-bottom: 50px;
 }
 .responsibilities {
   display: flex;
   justify-content: center;
-  list-style: none;
   height: 100%;
-  padding: 0px 215px 94px;
 }
 .respo-picture {
   padding: 0px 30px 0px;
-  margin: 0px;
 }
 .our-team {
   background-color: #f5f4fa;
-  padding: 94px 0px 50px;
+  padding-bottom: 50px;
 }
 .our-team-list {
   display: flex;
-  list-style: none;
   gap: 30px;
-  margin: 0px;
+
   padding-bottom: 94px;
 }
 .art-color {
@@ -146,9 +148,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.fig {
-  margin: 0px;
-}
 
 .name {
   font-size: 16px;
@@ -156,7 +155,6 @@ body {
   line-height: 1.18;
   text-align: center;
   padding: 30px 99px 10px;
-  margin: 0px;
 }
 
 .description {
@@ -184,19 +182,21 @@ body {
 }
 .button-nav {
   display: flex;
-  flex-direction: row;
   gap: 8px;
   justify-content: center;
-  list-style-type: none;
+  padding-bottom: 50px;
 }
 
 .list {
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding: 0px;
+  gap: 30px;
+  column-gap: 30px;
 }
 .item {
-  flex-basis: calc(100% / 3);
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  border-bottom: 1px solid #eeeeee;
 }
 
 .title-portfolio {
@@ -211,10 +211,18 @@ body {
   line-height: 1.87;
 }
 .footer {
+  display: flex;
   background-color: #2f303a;
   height: 252px;
-  padding: 60px 0 0 215px;
+  padding-left: 215px;
 }
+.logo-footer {
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
 .logo-footer-first {
   color: #2196f3;
   line-height: 1.19;
@@ -227,20 +235,16 @@ body {
   color: #ffffff;
   line-height: 1.71;
   padding-top: 20px;
-  margin: 0px;
 }
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-dots {
-  list-style-type: none;
   padding: 0px;
-  margin: 0px;
 }
 .footer-dots > li {
   padding: 9px 0px;
-  margin: 0px;
 }
 
 .container {
